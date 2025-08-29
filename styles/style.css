@@ -36,7 +36,7 @@ p {
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    font-weight: 700;
+    font-weight: var(--fw-700);
     text-decoration: none;
     transition: 0.3s ease;
 }
@@ -147,7 +147,7 @@ p {
 .highlights__headline a {
     color: var(--off-white);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: var(--fw-700);
 }
 
 .highlights__headline a:hover {
@@ -180,7 +180,7 @@ p {
 
 .featured__number {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: var(--fw-700);
     color: var(--soft-red);
 }
 
@@ -306,7 +306,7 @@ p {
         color: var(--dark-grayish-blue);
         font-size: 1rem;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: var(--fw-400);
     }
 
     .main__container {
